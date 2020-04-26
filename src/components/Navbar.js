@@ -5,7 +5,7 @@ import logo from './Logo.png';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-default">
+    <nav className="navbar navbar-default animated fadeIn">
       <div className="container-fluid">
         <div className="navbar-header">
           <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myTopNav">
