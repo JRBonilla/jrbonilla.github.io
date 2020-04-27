@@ -87,7 +87,7 @@ ul.topnav li.icon {
 	border-bottom: 2px solid #5856D6;
 }
 
-#resume-button:hover::after {
+#about-button:hover::after {
 	border-bottom: 2px solid #ff003b;
 }
 
@@ -113,35 +113,36 @@ ul.topnav li.icon {
 }
 
 .page-title {
-	font-family: 'Manrope', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 280%;
     font-weight: normal;
+    margin: 1.5%;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     transition: 0.3s;
     border-radius: 5px;
     background-color: #fefefe;
-    width: 60%;
-    display: inline-block;
+    width: 28%;
     font-size: 14px;
+    display: inline-block;
     font-family: 'Manrope', sans-serif;
+    margin: 0.5% 8px;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
 
 .card-img {
-    float: left;
-    width: 23%;
-    max-width: 150px;
-    border-radius: 5px 0 0 5px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
 }
 
 .card-content {
-    padding: 10px;
+    padding: 5px 20px 5px 20px;
+    text-align: left;
 }
 
 .card-title {
@@ -149,7 +150,12 @@ ul.topnav li.icon {
 }
 
 .card-body {
-    font-weight: lighter;
+    font-weight: normal;
+}
+
+.card-link {
+    float: right;
+    margin-top: 5px;
 }
 
 #introduction {
@@ -195,15 +201,15 @@ p.intro-2 {
 }
 
 #project-1 {
-	animation-delay: 1.2s;
+	animation-delay: 0.8s;
 }
 
 #project-2 {
-	animation-delay: 2.2s;
+	animation-delay: 1.4s;
 }
 
 #project-3 {
-	animation-delay: 3.2s;
+	animation-delay: 2.0s;
 }
 
 /* || Animation styles*/
@@ -217,8 +223,8 @@ p.intro-2 {
 .fade-appear-active,
 .fade-enter.fade-enter-active {
     opacity: 1;
-    transition: opacity 600ms linear 150ms;
-    animation: fadeInDown 0.5s;
+    transition: opacity 800ms linear 400ms;
+    animation: fadeInDown 0.8s;
 }
 
 .fade-exit {
@@ -227,7 +233,7 @@ p.intro-2 {
 
 .fade-exit.fade-exit-active {
     opacity: 0;
-    transition: opacity 500ms linear 150ms;
+    transition: opacity 500ms linear;
     animation: fadeOutDown 0.5s;
 }
 
@@ -242,7 +248,13 @@ p.intro-2 {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     #introduction {
         margin-top: 15%;
+    }
+
+    .card {
+        width: 80%;
+        margin: 0 0 18px 0;
     }
 }

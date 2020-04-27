@@ -13,13 +13,13 @@ const Navbar = () => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <NavLink exact to="/"><img src={logo} id="logo"/></NavLink>
+          <NavLink exact to="/"><img src={logo} alt="logo" id="logo"/></NavLink>
         </div>
         <div className="collapse navbar-collapse" id="myTopNav">
           <ul className="nav navbar-nav topnav">
             <li><NavLink className="button" id="home-button" exact to="/">Home</NavLink></li>
             <li><NavLink className="button" id="portfolio-button" exact to="/portfolio">Portfolio</NavLink></li>
-            <li><NavLink className="button" id="resume-button" exact to="/resume">Resume</NavLink></li>
+            <li><NavLink className="button" id="about-button" exact to="/about">About Me</NavLink></li>
             <li><NavLink className="button" id="contact-button" exact to="/contact">Contact</NavLink></li>
           </ul>
         </div>
