@@ -5,7 +5,7 @@ import { Container as BootstrapContainer } from 'react-bootstrap';
 import '../App.css';
 import 'animate.css/animate.css';
 import Introduction from './Introduction';
-import Portfolio from './Portfolio';
+import Projects from './Projects';
 import About from './About';
 import Contact from './Contact';
 
@@ -22,7 +22,7 @@ const Container = () => {
           >
             <Switch location={location}>
               <Route exact path="/" component={Introduction}/>
-              <Route path="/portfolio" component={Portfolio}/>
+              <Route path="/projects" component={Projects}/>
               <Route path="/about" component={About}/>
               <Route path="/contact" component={Contact}/>
             </Switch>

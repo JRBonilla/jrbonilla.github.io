@@ -3,11 +3,11 @@ import 'animate.css/animate.css';
 import '../App.css';
 import wip from './wip.png';
 
-// The portfolio page contents
-const Portfolio = () => {
+// The projects page contents
+const Projects = () => {
     return (
       <div className="page">
-        <p className="page-title">Portfolio</p><br/>
+        <p className="page-title">Projects</p><br/>
         <div className="card animated fadeInUp" id="project-1">
           <img className="card-img" src={wip} alt="Travel Plan Website"/>
           <div className="card-content">
@@ -42,4 +42,4 @@ const Portfolio = () => {
     )
 }
 
-export default Portfolio;
+export default Projects;

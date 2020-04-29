@@ -83,7 +83,7 @@ ul.topnav li.icon {
 	border-bottom: 2px solid #ffce66;
 }
 
-#portfolio-button:hover::after {
+#projects-button:hover::after {
 	border-bottom: 2px solid #5856D6;
 }
 
@@ -103,7 +103,7 @@ ul.topnav li.icon {
 	float: left;
 }
 
-/* || Page styles */
+/* || Global page styles */
 
 .page {
     position: absolute;
@@ -115,7 +115,7 @@ ul.topnav li.icon {
 .page-title {
     font-family: 'Manrope', sans-serif;
     font-size: 280%;
-    font-weight: normal;
+    font-weight: bolder;
     margin: 1.5%;
 }
 
@@ -157,6 +157,8 @@ ul.topnav li.icon {
     float: right;
     margin-top: 5px;
 }
+
+/* || Home page styles */
 
 #introduction {
 	color: #2d2d2d;
@@ -200,6 +202,8 @@ p.intro-2 {
 	padding-right: 5px;
 }
 
+/* || Projects page styles */
+
 #project-1 {
 	animation-delay: 0.8s;
 }
@@ -210,6 +214,69 @@ p.intro-2 {
 
 #project-3 {
 	animation-delay: 2.0s;
+}
+
+/* || About Me page styles */
+
+.about-me {
+    font-size: 23px;
+    font-weight: lighter;
+    animation-delay: 0.5s;
+    word-wrap: normal;
+    margin-top: 2.2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    line-height: 1.6em;
+}
+
+/* || Contact page styles */
+
+#contact {
+    font-weight: lighter;
+    animation-delay: 0.5s;
+    margin-top: 2.8em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form {
+    background-color: #fefefe;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 40%;
+    margin: 0.5% 8px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    padding: 5px 20px 5px 20px;
+    text-align: left;
+}
+
+.contact-form:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.contact-form>input, .contact-form>textarea {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.contact-form>textarea {
+    height: 150px;
+}
+
+.contact-form>.button {
+    font-size: 15px;
+}
+
+.social-media {
+    font-size: 40px;
+}
+
+.fab {
+    margin-right: 8px;
 }
 
 /* || Animation styles*/
